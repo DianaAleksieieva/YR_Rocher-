@@ -85,3 +85,11 @@
     border: 0;
     color: var(--white-color);
 }
+
+.OrderForm {
+    padding: 30px;
+}
+
+.input {
+    margin-left: 10px
+}
