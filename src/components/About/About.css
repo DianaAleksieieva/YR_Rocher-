@@ -1,0 +1,4 @@
+.about-section {
+    min-height: calc(100vh - 30px - 18px);
+    padding-top: 20px;
+}

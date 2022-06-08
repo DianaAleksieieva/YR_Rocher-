@@ -1,0 +1,31 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100vp;
+    height: 8.3125rem;
+    background: rgba(111, 126, 13, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-info {
+display: flex;
+}
+
+.contact-info-item {
+    padding-left: 100px;
+ margin-right: 20px;
+ text-align: left;
+}
+.contact-info-mail {
+    max-width: 400px;
+}
+
+.contact-info-small-text {
+    margin-right: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+.copyright {
+    margin-top:auto;
+}

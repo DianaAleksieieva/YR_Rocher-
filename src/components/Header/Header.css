@@ -1,0 +1,22 @@
+.main-header {
+    min-height: 6rem;
+    background-color: #6f7e0d;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yr-logo {
+    height: 50px;
+}
+
+
+.main-navigation-button {
+    color: #fff;
+    margin-left: 20px;
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    font-size: inherit;
+}

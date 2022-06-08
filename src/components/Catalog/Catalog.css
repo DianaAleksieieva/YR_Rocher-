@@ -1,0 +1,7 @@
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.catalog {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: calc(100vh - 30px - 18px);
+}
