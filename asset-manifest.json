@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/YR_Rocher-/static/css/main.85af22cb.css",
+    "main.js": "/YR_Rocher-/static/js/main.764ae6ab.js",
+    "static/media/UA_BR2111_Page_02.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_02.4807b62f713d776d559a.jpg",
+    "static/media/UA_BR2111_Page_04.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_04.1404bd8becd4ddf099e9.jpg",
+    "static/media/UA_BR2111_Page_03.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_03.db95ecc0d6fbafec4654.jpg",
+    "static/media/UA_BR2111_Page_01.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_01.a3ecca987b2f4bc2469d.jpg",
+    "static/media/UA_BR2111_Page_05.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_05.d81c8a3025090cd73cb5.jpg",
+    "static/media/UA_BR2111_Page_06.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_06.9b34a5240ef99cdcecd5.jpg",
+    "static/media/yr-logo.svg": "/YR_Rocher-/static/media/yr-logo.7d98e627d23a018b2aad373a14cb413a.svg",
+    "static/media/cross.svg": "/YR_Rocher-/static/media/cross.144589f5489eba1db903.svg",
+    "index.html": "/YR_Rocher-/index.html",
+    "main.85af22cb.css.map": "/YR_Rocher-/static/css/main.85af22cb.css.map",
+    "main.764ae6ab.js.map": "/YR_Rocher-/static/js/main.764ae6ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85af22cb.css",
+    "static/js/main.764ae6ab.js"
+  ]
+}
