@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/YR_Rocher-/static/css/main.a8981d5f.css",
-    "main.js": "/YR_Rocher-/static/js/main.565ce770.js",
+    "main.css": "/YR_Rocher-/static/css/main.93ba3413.css",
+    "main.js": "/YR_Rocher-/static/js/main.8209c03e.js",
     "static/media/UA_BR2111.pdf": "/YR_Rocher-/static/media/UA_BR2111.92d050337122c608bbfd.pdf",
     "static/media/UA_BR2111_Page_02.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_02.00324ea21acb4b19dab2.jpg",
     "static/media/UA_BR2111_Page_04.jpg": "/YR_Rocher-/static/media/UA_BR2111_Page_04.5e9e8368d0b263b5e31f.jpg",
@@ -32,11 +32,11 @@
     "static/media/cross.svg": "/YR_Rocher-/static/media/cross.144589f5489eba1db903.svg",
     "static/media/Picto_Internet.svg": "/YR_Rocher-/static/media/Picto_Internet.09100ed9809783ad87d5881af4ab7ae8.svg",
     "index.html": "/YR_Rocher-/index.html",
-    "main.a8981d5f.css.map": "/YR_Rocher-/static/css/main.a8981d5f.css.map",
-    "main.565ce770.js.map": "/YR_Rocher-/static/js/main.565ce770.js.map"
+    "main.93ba3413.css.map": "/YR_Rocher-/static/css/main.93ba3413.css.map",
+    "main.8209c03e.js.map": "/YR_Rocher-/static/js/main.8209c03e.js.map"
   },
   "entrypoints": [
-    "static/css/main.a8981d5f.css",
-    "static/js/main.565ce770.js"
+    "static/css/main.93ba3413.css",
+    "static/js/main.8209c03e.js"
   ]
 }
