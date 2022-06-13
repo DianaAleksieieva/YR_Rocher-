@@ -35,7 +35,7 @@ function App() {
           onClick={changePage}
           showModal={switchModalState}
         />
-        {currentPage === 'catalog'? (
+        {currentPage === 'catalog' ? (
           <>
             <CurrentDate />
             <Catalog />
@@ -43,7 +43,9 @@ function App() {
         ) : (
           <About />
         )}
-        {showModal && <OrderForm closeModal={switchModalState}/>}
+        {showModal && (
+          <OrderForm closeModal={switchModalState} showModal={showModal} />
+        )}
         <MainPageButtons showModal={switchModalState} />
         <Footer />
       </div>
