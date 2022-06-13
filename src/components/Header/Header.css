@@ -1,6 +1,6 @@
 .main-header {
-    min-height: 6rem;
-    background-color: #6f7e0d;
+    min-height: 3rem;
+    background-color: #749424;
     color: #fff;
     display: flex;
     align-items: center;
@@ -8,9 +8,8 @@
 }
 
 .yr-logo {
-    height: 50px;
+    height: 45px;
 }
-
 
 .main-navigation-button {
     color: #fff;
@@ -19,4 +18,21 @@
     border: 0;
     cursor: pointer;
     font-size: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    .main-header {
+        display: block;
+        min-height: 2rem;
+        color: #fff;
+        align-items: center;
+    }
+    .yr-logo {
+        height: 35px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-navigation-button {
+        display: none;
+}
 }

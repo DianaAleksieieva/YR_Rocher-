@@ -6,9 +6,11 @@
     height: 100vh;
     z-index: 101;
     backdrop-filter: blur(5px);
+    overflow: hidden;
 }
 
 .modal_content {
+    overflow-y: initial;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -17,13 +19,16 @@
     min-height: 50%;
     box-shadow: 10px 10px 30px rgba(82, 85, 95, 0.4);
     border-radius: 30px;
-    background-color: #fff;
-
-    @media screen and (max-width: 767px) {
-        width: 280px;
-        height: 174px;
-    }
+    background-color: #749424;
 }
+@media screen and (max-width: 600px) {
+    .modal_content {
+        max-height: calc(100vh - 50px);
+        width: 90%;
+        overflow-y: auto;
+        border-radius: 5px;
+    }
+ }
 
 .modalCloseBtn {
     position: absolute;
@@ -34,6 +39,12 @@
     outline: none;
     border: none;
     margin: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .modalCloseBtn {
+        top: 15px;
+        right: 10px;}
 }
 
 .modalCloseIcon {
@@ -51,45 +62,168 @@
     margin-bottom: 20px;
 }
 
-.btnContainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 265px;
-    display: flex;
-    justify-content: space-between;
+.textContent-small {
+    font-weight: 400;
     text-align: center;
 }
 
 .btn {
     width: 125px;
     height: 44px;
-    border-radius: 16px;
-    background-color: #fff;
+    border-radius: 4px;
+    background-color: #749424;;
+    color: #fff;
     text-align: center;
-    display: inline-block;
-    border: 2px solid var(--light-icons-color);
-    text-decoration: none;
     text-transform: uppercase;
     cursor: pointer;
     font-family: inherit;
     font-size: 12px;
     line-height: 14px;
-    font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
+    border: 0;
     transition: background-color 300ms linear;
 }
 
-.btn:hover,
-.btn:focus {
-    background-color: var(--accent-orange-color);
-    border: 0;
-    color: var(--white-color);
-}
-
 .OrderForm {
+    text-align: center;
     padding: 30px;
+}
+.inputWrap {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
 .input {
-    margin-left: 10px
+    border: solid #749424 1px;
+    width:100%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    height: 30px;
 }
+
+.input-lable{
+    display: inline;
+}
+
+.how-to-order-block {
+    padding-top: 40px;
+    background-color: #749424;
+    text-align: center;}
+
+.request-block {
+    background-color: #fff;
+    border-radius: 0px 0px 20px 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .request-block {
+        border-radius: 0px 0px 5px 5px;
+    }
+}
+
+.how-to-order-info {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .how-to-order-info {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .info-block:last-child {
+       margin-top: 10px;
+    }
+}
+
+.how-to-order-text-item {
+    margin: 0;
+    padding: 0;
+}
+
+.phones-numers{
+    text-align: left;
+    margin: 0;
+    margin-left: 10px;
+}
+.phone-number {
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    .phone-number {
+        font-size: 12px;
+    }
+}
+
+.how-order-capture {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* @media screen and (max-width: 600px) {
+    .how-to-order-text-item {
+        max-width: 55%;
+    }
+} */
+
+.ico {
+    margin-right: 10px;
+    width: 30px;
+}
+
+.contact-info-small-text {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 600px) {
+    .contact-info-small-text {
+        font-size: 10px;
+    }}
+
+.info-block {
+    margin-right: 10px;
+}
+
+.info-block:last-child {
+    margin-right: 0px;
+}
+
+.or {
+    background-color: #fff;
+    color: #749424;
+    font-weight: 700;
+    font-size: 16px;
+    display: inline-block;
+    margin: 0;
+    padding: 5px;
+    border-radius: 25px 25px 0 0;
+}
+
+.send-tequest-capture {
+    margin-top: 0px;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 600px) {
+    .main-header {
+        display: block;
+        min-height: 2rem;
+        color: #fff;
+        align-items: center;
+    }}

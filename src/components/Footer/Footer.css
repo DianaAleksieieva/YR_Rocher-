@@ -1,31 +1,108 @@
 .footer {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width: 100vp;
-    height: 8.3125rem;
-    background: rgba(111, 126, 13, 0.1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #749424;;
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
 }
 
 .contacts-info {
 display: flex;
+justify-content: space-around;
 }
 
-.contact-info-item {
-    padding-left: 100px;
- margin-right: 20px;
- text-align: left;
+.info-block{
+    margin-right: 40px;
+    text-align: left;
+    display: flex;
+    align-items: center;
 }
-.contact-info-mail {
-    max-width: 400px;
+.ico {
+    width: 50px;
+    margin-right: 20px;
+}
+.phone-number {
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+}
+.how-to-order-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+.text-in-bold {
+    font-weight: 600;
+}
+.how-to-order-text-item{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    color: #fff;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: inherit
 }
 
 .contact-info-small-text {
-    margin-right: 20px;
+    max-width: 240px;
+    margin: 0;
     text-align: left;
     font-size: 12px;
+    color: #fff;
 }
 .copyright {
     margin-top:auto;
+}
+
+.phones-numers {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-left: 40px;
+}
+
+@media screen and (max-width: 800px) {
+    .footer {
+        display: none;
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .footer {
+        padding-top: 3px;
+        padding-bottom: 3px;}
+
+    .phone-number {
+        font-size: 12px;
+        font-weight: 400px;
+    }
+    .how-to-order-text-item {
+        font-size: 10px;
+    }
+    .info-block{
+    margin-right: 20px;}
+    .phones-numers {
+    margin-left: 10px;
+}
+    .contact-info-small-text {
+    white-space: pre-line;
+    font-size: 9px;}
+    .contact-info-small-text {
+    max-width: 180px;}
 }

@@ -1,9 +1,16 @@
 .catalogDateBg {
     background-color: #f4f4f4;
     margin:0px;
-    padding: 10px;
+    padding: 6px;
 }
 .catalogDate {
+    font-size: 14px;
     margin: 0px;
     font-weight: 600;
+}
+
+@media screen and (max-width: 600px) {
+    .catalogDateBg {
+        display: none;
+    }
 }

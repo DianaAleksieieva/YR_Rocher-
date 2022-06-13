@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-size: 15px;
 }
 
 .App-logo {
@@ -10,4 +11,11 @@
 .container {
   padding-left: 40px;
   padding-right: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
 }

@@ -1,34 +1,78 @@
 .button-wrap {
-    margin-bottom: 20px;
-    
+    margin-bottom: 10px;
+    padding-left: 5%;
+}
+
+.btn-main {
+    max-width: 200px;
+    min-width: 160px;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border: 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
 }
 .MainButton { 
-    font-size: inherit;
-    font-weight: 600;
-    padding:15px;
-    background-color: #e1d5c4;
-    border:0px;
-    border-radius: 3px;
-    cursor: pointer;
+    background-color: #75B920;
+    color:#fff;
     margin-right: 40px;
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 .MainButton:hover {
-    background-color: #6a533d;
+    background-color: #6f7e0d;
     color: #fff;
 }
 
 .downloadButton {
-    text-decoration: none;
     color:inherit;
-    font-size: inherit;
-    font-weight: 600;
-    padding: 15px;
     background-color: #e1d5c4;
-    border: 0px;
-    border-radius: 3px;
 }
 
 .downloadButton:hover {
     background-color: #6a533d;
     color: #fff;
 }
+.button-name {
+    display: inline-block;
+}
+
+@media screen and (max-width: 600px) {
+    .button-wrap {
+        padding-left: 0;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 5px;
+        margin-left: 30px;
+        margin-right: 30px;
+        }
+    .btn-main {
+        min-width: none;
+        display: block;
+        padding: 10px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-size: 14px;
+        line-height: 16px;
+        width: 100%;
+    }
+    .MainButton {
+        margin-right: 10px;
+    }
+    .button-name{
+        margin-left: auto;
+        margin-right:auto;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100px;
+        display: block;
+    }
+    }
