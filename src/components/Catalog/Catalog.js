@@ -12,6 +12,7 @@ function Catalog() {
     return (
       <div className="catalog container">
         <ImageGallery
+          lazyLoad={false}
           items={images}
           showPlayButton={false}
           showThumbnails={true}

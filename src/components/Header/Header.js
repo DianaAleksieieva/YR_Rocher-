@@ -5,7 +5,7 @@ import YRLogo from "../../images/yr-logo.svg";
 function Header({ onClick, showModal }) {
   return (
     <div className="main-header container">
-      <a href="/">
+      <a href="./">
         <img className="yr-logo" alt="Yves Rocher" src={YRLogo}></img>
       </a>
 
