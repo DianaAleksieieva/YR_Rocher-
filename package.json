@@ -1,7 +1,6 @@
 {
   "name": "rocher-main",
   "version": "0.1.0",
-  "homepage": "https://dianaaleksieieva.github.io/YR_Rocher-/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
@@ -21,8 +20,7 @@
     "react-zoom-pan-pinch": "^2.1.3",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "predeploy": "npm run build",
+    "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
